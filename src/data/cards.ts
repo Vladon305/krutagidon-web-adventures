@@ -108,6 +108,18 @@ export const generateSampleCards = (): Card[] => {
   });
   
   cards.push({
+    id: 'legend-2',
+    name: 'Evil Villain',
+    type: 'legend',
+    cost: 19,
+    power: 10,
+    description: 'Attack: The targeted wizard takes 7 damage and discards a card. This card cannot be countered.',
+    isAttack: true,
+    rarity: 'legendary',
+    imagePath: '/public/lovable-uploads/047faeba-79a0-4136-bb23-f5c196a05fef.png'
+  });
+  
+  cards.push({
     id: 'megachaos-1',
     name: 'Mega Chaos',
     type: 'megachaos',
