@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 @tailwind base;
@@ -55,7 +56,7 @@
   body {
     @apply bg-krutagidon-dark text-foreground;
     font-family: 'Russo One', sans-serif;
-    background-image: url('/public/lovable-uploads/a58d727b-c7d5-41fb-9b61-eb916b8344f4.png');
+    background-image: url('/lovable-uploads/a58d727b-c7d5-41fb-9b61-eb916b8344f4.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

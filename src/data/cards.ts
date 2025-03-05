@@ -9,7 +9,7 @@ export const signCard: Card = {
   cost: 0,
   description: '+1 Power',
   rarity: 'common',
-  imagePath: '/public/lovable-uploads/69c24f79-3fc1-4aaf-8802-2a81dd863771.png'
+  imagePath: '/lovable-uploads/69c24f79-3fc1-4aaf-8802-2a81dd863771.png'
 };
 
 export const spikeCard: Card = {
@@ -19,7 +19,7 @@ export const spikeCard: Card = {
   cost: 0,
   description: 'No effect. Get rid of it!',
   rarity: 'common',
-  imagePath: '/public/lovable-uploads/cb4af35e-c789-4d77-a591-a73e49acdef1.png'
+  imagePath: '/lovable-uploads/cb4af35e-c789-4d77-a591-a73e49acdef1.png'
 };
 
 export const cheeseStickCard: Card = {
@@ -30,7 +30,7 @@ export const cheeseStickCard: Card = {
   description: 'Attack: Deal 1 damage to a wizard. If they die from this damage, get 2 chipsins.',
   isAttack: true,
   rarity: 'common',
-  imagePath: '/public/lovable-uploads/69ba348f-e12c-4fa8-a700-cd62fc3e9d6e.png'
+  imagePath: '/lovable-uploads/69ba348f-e12c-4fa8-a700-cd62fc3e9d6e.png'
 };
 
 // Generate sample cards for each type
@@ -46,7 +46,7 @@ export const generateSampleCards = (): Card[] => {
     power: 2,
     description: 'Gain +1 power for each spell you play this turn.',
     rarity: 'uncommon',
-    imagePath: '/public/lovable-uploads/effbae94-7ebe-4cf0-9abf-00be5d69bb06.png'
+    imagePath: '/lovable-uploads/effbae94-7ebe-4cf0-9abf-00be5d69bb06.png'
   });
   
   cards.push({
@@ -59,7 +59,7 @@ export const generateSampleCards = (): Card[] => {
     description: 'Attack: Deal 3 damage to a target wizard.',
     isAttack: true,
     rarity: 'common',
-    imagePath: '/public/lovable-uploads/817cf14b-b0eb-4fdc-b95f-372db16e6dd4.png'
+    imagePath: '/lovable-uploads/817cf14b-b0eb-4fdc-b95f-372db16e6dd4.png'
   });
   
   cards.push({
@@ -70,7 +70,7 @@ export const generateSampleCards = (): Card[] => {
     description: 'Attack: Deal 5 damage to target wizard.',
     isAttack: true,
     rarity: 'common',
-    imagePath: '/public/lovable-uploads/69f41f8c-14f5-4db4-8f4a-ea4f7abee603.png'
+    imagePath: '/lovable-uploads/69f41f8c-14f5-4db4-8f4a-ea4f7abee603.png'
   });
   
   cards.push({
@@ -80,7 +80,7 @@ export const generateSampleCards = (): Card[] => {
     cost: 4,
     description: 'You may destroy this treasure to destroy a card in your hand.',
     rarity: 'uncommon',
-    imagePath: '/public/lovable-uploads/bb438b32-f1f1-4c30-af7a-0ac597ec4beb.png'
+    imagePath: '/lovable-uploads/bb438b32-f1f1-4c30-af7a-0ac597ec4beb.png'
   });
   
   cards.push({
@@ -91,7 +91,7 @@ export const generateSampleCards = (): Card[] => {
     description: 'Permanent: At the end of your turn, draw an additional card.',
     isPermanent: true,
     rarity: 'uncommon',
-    imagePath: '/public/lovable-uploads/fd1ab9b9-d82b-4833-a287-643727706297.png'
+    imagePath: '/lovable-uploads/fd1ab9b9-d82b-4833-a287-643727706297.png'
   });
   
   // Generate some legendary cards
@@ -104,7 +104,7 @@ export const generateSampleCards = (): Card[] => {
     description: 'Attack: The targeted wizard takes 7 damage and discards a card. This card cannot be countered.',
     isAttack: true,
     rarity: 'legendary',
-    imagePath: '/public/lovable-uploads/047faeba-79a0-4136-bb23-f5c196a05fef.png'
+    imagePath: '/lovable-uploads/047faeba-79a0-4136-bb23-f5c196a05fef.png'
   });
   
   cards.push({
@@ -116,7 +116,7 @@ export const generateSampleCards = (): Card[] => {
     description: 'Attack: The targeted wizard takes 7 damage and discards a card. This card cannot be countered.',
     isAttack: true,
     rarity: 'legendary',
-    imagePath: '/public/lovable-uploads/047faeba-79a0-4136-bb23-f5c196a05fef.png'
+    imagePath: '/lovable-uploads/047faeba-79a0-4136-bb23-f5c196a05fef.png'
   });
   
   cards.push({
@@ -126,7 +126,7 @@ export const generateSampleCards = (): Card[] => {
     cost: 0,
     description: 'Chaos Event: All wizards must discard their hands and draw 3 new cards.',
     rarity: 'rare',
-    imagePath: '/public/lovable-uploads/be4e74ef-bf71-443b-8f63-6f989ead785f.png'
+    imagePath: '/lovable-uploads/be4e74ef-bf71-443b-8f63-6f989ead785f.png'
   });
 
   cards.push({
@@ -137,7 +137,7 @@ export const generateSampleCards = (): Card[] => {
     description: 'Defense: Discard a card to avoid an attack. Each time you draw a card, gain 1 power.',
     isDefense: true,
     rarity: 'uncommon',
-    imagePath: '/public/lovable-uploads/4cb2abb3-b1e8-40f2-9a50-9f817ec6d7ba.png'
+    imagePath: '/lovable-uploads/4cb2abb3-b1e8-40f2-9a50-9f817ec6d7ba.png'
   });
   
   cards.push({
@@ -147,7 +147,7 @@ export const generateSampleCards = (): Card[] => {
     cost: 3,
     description: 'Choose one: Gain 2 power or draw a card from your opponent\'s deck.',
     rarity: 'uncommon',
-    imagePath: '/public/lovable-uploads/4d70a1f5-ee1d-43c2-a8c6-2bc34a7d24a8.png'
+    imagePath: '/lovable-uploads/4d70a1f5-ee1d-43c2-a8c6-2bc34a7d24a8.png'
   });
   
   cards.push({
@@ -157,7 +157,7 @@ export const generateSampleCards = (): Card[] => {
     cost: 0,
     description: 'No effect. At the end of the game, lose 1 victory point for each wilting in your deck.',
     rarity: 'common',
-    imagePath: '/public/lovable-uploads/2f5c74c1-6bc3-4c47-980f-c28bd3cfde96.png'
+    imagePath: '/lovable-uploads/2f5c74c1-6bc3-4c47-980f-c28bd3cfde96.png'
   });
   
   return cards;
